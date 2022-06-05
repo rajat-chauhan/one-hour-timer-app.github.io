@@ -6,3 +6,43 @@
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(146, 185, 136);
+    /* background-image: url("./images/tiimer.jpg"); */
+}
+
+.main-container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(59, 37, 37);
+    padding: 20px;
+}
+.main-container h1{
+    color: white;
+}
+
+#timer-heading{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.btns{
+    padding: 20px;
+}
+#start-btn, #stop-btn, #reset-btn{
+    cursor: pointer;
+    padding: 8px;
+}
+#start-btn:hover, #stop-btn:hover, #reset-btn:hover{
+    background-color: burlywood;
+    outline: none;
+    border: none;
+}
